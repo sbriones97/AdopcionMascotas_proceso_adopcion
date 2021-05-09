@@ -4,8 +4,14 @@
   "description": "- Descripción del micro-servicio: Se encargará de realizar una comunicación por chat entre los usuarios que quieren adoptar y los que dan mascotas a adopción",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "Salvador y Victoria",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.903.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
 }
