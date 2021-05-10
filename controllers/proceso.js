@@ -27,7 +27,7 @@ class ProcesoController {
 
     async getProceso(res, mascota_id){
         params = {
-            TableName: "Proceso",
+            TableName: "Proceso", 
             FilterExpression: 'mascota_id = :i',
             ExpressionAttributeValues:{
                 ':i': Number(mascota_id)
